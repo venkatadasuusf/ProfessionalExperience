@@ -51,11 +51,17 @@ namespace Conditional_Statements
                     Console.ReadKey(true);
                            
                 }
-                
+                else 
+                {
+                    Console.WriteLine("Press any key to exit the program ...");
+                    Console.ReadKey(true);
+
+                }
+
             } // end of try
             catch
             {
-                Console.WriteLine("Please use a interger data type for your experience details next time...");
+                Console.WriteLine("Please use a integer data type for your experience details next time...");
                 Console.WriteLine("Press any key to exit the program and try again...");
                 Console.ReadKey(true);
             } // end of catch     
